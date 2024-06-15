@@ -1,9 +1,10 @@
-setTimeout(()=>{
-    process.exit()
-},2000);
+setTimeout(() => {
+  process.exit();
+}, 2000);
 
-process.on('exit',()=>{
-    console.log(`process will exit now`);
+process.on("exit", () => {
+  console.log(`process will exit now`);
 });
 
-console.log('hello');
+console.log("hello");
+//done
